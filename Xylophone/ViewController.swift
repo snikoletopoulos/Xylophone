@@ -11,7 +11,7 @@ class ViewController: UIViewController {
             playSound(note: note)
         }
 
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
             sender.layer.opacity = 1
         }
     }
